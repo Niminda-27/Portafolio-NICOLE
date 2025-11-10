@@ -77,9 +77,60 @@ button:hover {
 
 /* ==== PIE DE PÁGINA ==== */
 footer {
+/* ==== ENLACES DE PROYECTOS ==== */
+.proyecto a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+  color: #8e44ad;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.proyecto a:hover {
+  color: #5e337d; /* tono más oscuro de púrpura */
+  transform: scale(1.05);
+}
+
+.proyecto i {
+  font-size: 1.2em;
+/* ==== REDES SOCIALES ==== */
+.redes {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.redes a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1em;
+  color: #ffffff;
+  transition: 0.3s;
+}
+
+.redes a:hover {
+  color: #f1c40f; /* cambia de color al pasar el mouse */
+}
+
+.redes i {
+  margin-right: 8px;
+  font-size: 1.5em;
+}
+
+/* Colores específicos (opcional) */
+.instagram i { color: #E1306C; }
+.github i { color: #000; }
+.tiktok i { color: #000; }
+}
   text-align: center;
   padding: 15px;
   background-color: #8e44ad;
   color: white;
 }
+
+
 
