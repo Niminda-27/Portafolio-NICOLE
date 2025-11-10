@@ -77,6 +77,12 @@ button:hover {
 
 /* ==== PIE DE PÁGINA ==== */
 footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #8e44ad;
+  color: white;
+}
+
 /* ==== ENLACES DE PROYECTOS ==== */
 .proyecto a {
   display: inline-flex;
@@ -95,6 +101,8 @@ footer {
 
 .proyecto i {
   font-size: 1.2em;
+}
+
 /* ==== REDES SOCIALES ==== */
 .redes {
   margin-top: 20px;
@@ -125,12 +133,13 @@ footer {
 .instagram i { color: #E1306C; }
 .github i { color: #000; }
 .tiktok i { color: #000; }
+
+/* ==== IMAGEN DEL PERFIL ==== */
+.proyecto img {
+  width: 250px; /* ajusta el tamaño */
+  max-width: 100%;
+  border-radius: 50%; /* redonda */
+  display: block;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
-  text-align: center;
-  padding: 15px;
-  background-color: #8e44ad;
-  color: white;
-}
-
-
-
